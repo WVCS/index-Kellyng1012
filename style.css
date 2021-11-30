@@ -1,3 +1,46 @@
 body {
-
+  background-color: lightpink;
 }
+
+h2 {
+  color: darkgray;
+  text-align: Center;
+  background-color: antiquewhite;
+  border: 5px pink dashed; 
+  font-size: 55px;
+  font-family: "Times New Roman";
+  letter-spacing: 7px;
+  
+}
+li,p {
+  color: gray;
+  font-size: 25px;
+  
+}
+ul {
+  text-align: center;
+  list-style: inside;
+  list-style-type: square;
+} 
+
+tr {
+  text-align: center;
+  color: gray;
+  font-size: 25px;
+}
+
+table, tr,td, th {
+  border: 5px dashed white;
+  border-collapse: collapse;
+  padding: 20 px;
+}
+table {
+  width: 65%; 
+}
+ 
+tr:hover {
+  background-color: antiquewhite;
+}
+
+tr:nth-child(odd) {background-color: lavender;}
+tr:nth-child(even) hover:{background-color: white;
