@@ -17,6 +17,8 @@ li,p {
   font-size: 25px;
   
 }
+li a:hover {
+  background-color: grey;
 ul {
   text-align: center;
   list-style: inside;
